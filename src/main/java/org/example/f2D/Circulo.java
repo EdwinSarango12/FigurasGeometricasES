@@ -1,5 +1,5 @@
 package org.example.f2D;
-
+import java.lang.Math;
 import org.example.figuras2d;
 
 public class Circulo extends figuras2d {

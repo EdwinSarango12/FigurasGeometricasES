@@ -9,10 +9,10 @@ public class Main {
         figura1.mostrarDatos();
         figuras2d figura2D1= new figuras2d();
         figura2D1.mostrarDatos();
-        figura2D1.mostrarDatos2d();
+        figura2D1.mostrarDatos();
         figuras3d figura3D1= new figuras3d();
         figura3D1.mostrarDatos();
-        figura3D1.mostrarDatos3d();
+        figura3D1.mostrarDatos();
 
 
         Circulo circulo1= new Circulo();
