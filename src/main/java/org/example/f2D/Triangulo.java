@@ -28,14 +28,16 @@ public class Triangulo extends figuras2d {
         this.altura = altura;
     }
 
-
-    public void calcularAreaT() {
+    @Override
+    public void calcularArea() {
         System.out.println("Area triangulo: ");
     }
-    public void calcularPerimetroT() {
+    @Override
+    public void calcularPerimetro() {
         System.out.println("Perimetro triangulo: ");
     }
-    public void mostrarTriangulo() {
+    @Override
+    public void mostrarDatos() {
         System.out.println("Triangulo");
     }
 

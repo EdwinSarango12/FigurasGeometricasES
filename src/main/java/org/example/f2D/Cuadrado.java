@@ -22,13 +22,16 @@ public class Cuadrado extends figuras2d {
         this.lado = lado;
     }
 
-    public void calcularAreaCu() {
+    @Override
+    public void calcularArea() {
         System.out.println("Area Cuadrado: ");
     }
-    public void calcularPerimetroCu() {
+    @Override
+    public void calcularPerimetro() {
         System.out.println("Perimetro Cuadrado: ");
     }
-    public void mostrarCuadrado() {
+    @Override
+    public void mostrarDatos() {
         System.out.println("Cuadrado");
     }
 }

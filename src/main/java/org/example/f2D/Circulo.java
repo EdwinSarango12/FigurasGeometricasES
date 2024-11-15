@@ -20,13 +20,16 @@ public class Circulo extends figuras2d {
         this.radio = radio;
     }
 
-    public void calcularAreaC(){
+    @Override  /**/
+    public void calcularArea(){
         System.out.println("Area circulo: ");
     }
-    public void calcularPerimetroC(){
+    @Override
+    public void calcularPerimetro(){
         System.out.println("Perimetro circulo: ");
     }
-    public void mostrarCirculo(){
+    @Override
+    public void mostrarDatos(){
         System.out.println("datos Circulo");
     }
 }
