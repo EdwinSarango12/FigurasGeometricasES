@@ -24,11 +24,13 @@ public class Cuadrado extends figuras2d {
 
     @Override
     public void calcularArea() {
-        System.out.println("Area Cuadrado: ");
+        double areaCuadrado = lado * lado;
+        System.out.println("Area Cuadrado: "+ areaCuadrado);
     }
     @Override
     public void calcularPerimetro() {
-        System.out.println("Perimetro Cuadrado: ");
+        double perimetroCuadrado = lado * 4;
+        System.out.println("Perimetro Cuadrado: "+ perimetroCuadrado);
     }
     @Override
     public void mostrarDatos() {
