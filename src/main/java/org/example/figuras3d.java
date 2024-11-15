@@ -40,7 +40,8 @@ public class figuras3d extends figurasGeometricas {
     public void calcularVolumen(){
         System.out.println("Volume: ");
     }
-    public void mostrarDatos3d(){
+    @Override
+    public void mostrarDatos(){
         System.out.println("Datos 3D: ");
     }
 }

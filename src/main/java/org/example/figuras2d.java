@@ -25,7 +25,8 @@ public class figuras2d extends figurasGeometricas {
     public void calcularPerimetro(){
         System.out.println("Perimetro: ");
     }
-    public void mostrarDatos2d(){
+    @Override
+    public void mostrarDatos(){
         System.out.println("datos 2D:");
     }
 

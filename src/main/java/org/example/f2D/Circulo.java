@@ -22,11 +22,13 @@ public class Circulo extends figuras2d {
 
     @Override  /**/
     public void calcularArea(){
-        System.out.println("Area circulo: ");
+        double areaCirculo = Math.PI * radio * radio;
+        System.out.println("Area circulo: "+ areaCirculo);
     }
     @Override
     public void calcularPerimetro(){
-        System.out.println("Perimetro circulo: ");
+        double perimetroCirculo = 2 * Math.PI * radio;
+        System.out.println("Perimetro circulo: "+ perimetroCirculo);
     }
     @Override
     public void mostrarDatos(){
