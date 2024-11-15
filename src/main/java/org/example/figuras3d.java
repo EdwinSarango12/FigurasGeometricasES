@@ -32,8 +32,6 @@ public class figuras3d extends figurasGeometricas {
         this.nlados = nlados;
     }
 
-
-
     public void calcularArea(){
         System.out.println("Area: ");
     }

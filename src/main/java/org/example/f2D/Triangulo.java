@@ -1,6 +1,7 @@
 package org.example.f2D;
 
 import org.example.figuras2d;
+import java.lang.Math;
 
 public class Triangulo extends figuras2d {
     private double base;
@@ -30,12 +31,16 @@ public class Triangulo extends figuras2d {
 
     @Override
     public void calcularArea() {
-        System.out.println("Area triangulo: ");
+        double areaTriangulo = (base*altura)/2;
+        System.out.println("Area triangulo: " + areaTriangulo);
     }
+
     @Override
     public void calcularPerimetro() {
-        System.out.println("Perimetro triangulo: ");
+        double perimetroTriangulo = Math.sqrt(base * base + altura * altura);
+        System.out.println("Perimetro triangulo: " + perimetroTriangulo);
     }
+
     @Override
     public void mostrarDatos() {
         System.out.println("Triangulo");
